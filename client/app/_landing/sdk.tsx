@@ -21,7 +21,7 @@ const SDK = () => {
       </div>
       <div className="min-h-screen flex flex-col gap-y-4 justify-center items-center">
         <div className="hidden md:flex text-center text-black text-3xl font-semibold font-playfair">
-          Bring dApp's from 0 to 1
+          Bring dApp&apos;s from 0 to 1
         </div>
         <div className="hidden md:flex text-center text-black text-6xl font-semibold font-playfair">
           <span className="relative">
@@ -31,7 +31,13 @@ const SDK = () => {
           , get started in seconds
         </div>
         <div>
-            <Image src="/carbon.svg" alt="code" width={600} height={400} className="shadow-md rounded-md pt-4"/>
+          <Image
+            src="/carbon.svg"
+            alt="code"
+            width={600}
+            height={400}
+            className="shadow-md rounded-md pt-4"
+          />
         </div>
       </div>
     </>
